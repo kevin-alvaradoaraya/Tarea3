@@ -1,2 +1,5 @@
-# Tarea3-
-Archivos de la Tarea 3 de MPSS IC-2020
+Modelos Probabilísticos de Señales y Sistemas
+Tarea 3
+Estudiante: Kevin Alvarado Araya
+Carnet: B60295
+Grupo: 01
