@@ -31,5 +31,5 @@ El coeficiente de correlación p = 0.005914099124709811, bastante cercano a cero
 
 Punto 4
 
-Las gráficas se adjuntan en el repositorio actual. Las gráficas fX(x) y fy(Y) muestran una tendencia gaussiana en su distribución, en las gráficas gaussX y gaussY se comparan las funciones de distribución marginales con las curvas de mejor ajuste identificadas. Mientas que la imagen fXY muestra la distribución tridimensional de la función de densidad conjunta.
+Las gráficas se adjuntan en el repositorio actual. Las gráficas fX y fY muestran una tendencia gaussiana en su distribución, en las gráficas gaussX y gaussY se comparan las funciones de distribución marginales con las curvas de mejor ajuste identificadas. Mientas que la imagen fXY muestra la distribución tridimensional de la función de densidad conjunta.
 
