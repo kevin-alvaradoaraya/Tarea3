@@ -11,7 +11,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 from scipy.stats import norm
-from mpl_toolkits.mplot3d import Axes3D
 
 # Lectura de los .csv con pandas
 xy=pd.read_csv("xy.csv")
@@ -72,12 +71,21 @@ for i in  range(len(X)):
 print("Correlación: ", Rxy)
 
 # Cálculo de covarrianza
-Cxy=Rxy-(param1[0]*param2[0])
+Cxy = 0
+for k in  range(len(X)):
+  if k == 0:
+    k = k + 1
+  else:
+    va_x = X[k];
+    va_y = Y[k];
+    proba = P[k];
+    Cxy += (va_x-param1[0])*(va_y-param2[0])*proba;
+    
 print("Covarianza: ", Cxy)
 
 # Coeficiente de correlación
-coef_p=Cxy/(param1[1]*param2[1])
-print("Coef. de correlación: ",coef_p)
+coef_rho=Cxy/(param1[1]*param2[1])
+print("Coef. de correlación: ",coef_rho)
 
 # Punto 4
 
