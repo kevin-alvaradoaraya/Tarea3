@@ -25,9 +25,9 @@ Punto 3
 
 La correlación de este conjunto de datos es Rxy = 149.4773100000001 al ser diferente de cero, implica que los conjuntos no son ortogonales 
 
-El resultado de la covarianza Cxy = 0.11760503547873213 sugiere que  la variable X es independiente o no correlacionada de la variable Y.
+El resultado de la covarianza Cxy =  -0.06283646534490323 sugiere que  la variable X es independiente o no correlacionada de la variable Y.
 
-El coeficiente de correlación p = 0.005914099124709811, bastante cercano a cero. Por lo tanto se concluye que las variables aleatorias X y Y son independientes. De esta forma se comprueba lo planteado en el Punto 2.
+El coeficiente de correlación p = -0.0031599079371539725, bastante cercano a cero. Por lo tanto se concluye que las variables aleatorias X y Y son independientes. De esta forma se comprueba lo planteado en el Punto 2.
 
 Punto 4
 
